@@ -11,7 +11,7 @@ body {
 
 .nav-link {
     font-size: 15px;
-    color: white;
+    color: white !important;
     font-weight: 500;
     font-family: 'Roboto',
         sans-serif;
@@ -105,4 +105,21 @@ position: relative;
     
     border-right: 2px dotted white;
     
+}
+
+
+
+@media (max-width: 967px) {
+    .nav-item{
+        background-color: whitesmoke;
+    }
+
+    .nav-link {
+        font-size: 15px;
+        color: #002147 !important;
+        font-weight: 600;
+        font-family: 'Roboto',
+            sans-serif;
+        margin-left: 30px;
+    }
 }
