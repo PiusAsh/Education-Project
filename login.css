@@ -1,7 +1,10 @@
 body{
-    background-color: #002147!important;
+    /* background-color: #002147!important; */
     font-family: 'Roboto',
     sans-serif;
+    background-image: url(Asset/12-410x260.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 

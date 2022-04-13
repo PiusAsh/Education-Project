@@ -24,6 +24,9 @@
 </head>
 
 <body>
+    <div id="showme" style="display:none;">You are signed in now.</div>
+    <div id="loadingGif" style="display:none"><img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif">
+    </div>
     <div class="maindiv shadow-lg">
         <div class="portal">
             <h2 class="sign py-2">Sign in to Student Portal</h2>
@@ -37,9 +40,9 @@
             <label for="password">Password</label>
             <input id="input2" type="password" placeholder="Your name is your password">
             <p class="forgetClass text-end"><a class="forget" href="http://">Forget Password</a></p>
-            <input id="input3" type="submit" value="Log in">
+            <input id="input3" type="submit" onclick="showDiv()" value="Log in">
 
-            <p class="homeT py-1">Take me home - <span><a class="home" href="/index.html">Go to School Home
+            <p class="homeT py-1">Take me home - <span><a class="home" href="index.html">Go to School Home
                         page</a></span>
             </p>
         </form>
