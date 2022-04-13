@@ -1,0 +1,116 @@
+body{
+    background-color: #002147!important;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+
+/* main section */
+
+.maindiv {
+    width: 350px;
+    background-color: white;
+    color: #002147;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border-radius: 7px;
+}
+
+
+
+/* input section */
+
+#input1,
+#input2 {
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #002147;
+    border-radius: 13px;
+    outline: hidden;
+    color: white;
+    height: 45px;
+    /* background: none; */
+}
+
+#input3 {
+    padding: 10px;
+    margin-top: 20px;
+    width: 95%;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    background-color: #002147;
+    color: white;
+    font-weight: 700;
+}
+
+/* label section */
+
+label {
+    font-size: 1.1rem;
+    font-family: "Corbel";
+    font-weight: bolder;
+    margin-top: 20px;
+    display: block;
+}
+
+/* warning section */
+
+.warning {
+    display: none;
+    font-size: .9rem;
+}
+
+.ash{
+    text-align: center;
+    font-family: 'Roboto',
+    sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
+
+.sign{
+    color: #002147;
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.portal{
+    display: flex;
+    justify-content: space-around;
+}
+.forget{
+    text-decoration: none;
+    color: #002147;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+.footer{
+    position: absolute;
+    top: 90%;
+    left: 39%;
+}
+
+.home{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+::placeholder{
+    color: gray;
+    font-size: 16px;
+
+}
