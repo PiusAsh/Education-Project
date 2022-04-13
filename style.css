@@ -30,38 +30,52 @@ body {
         sans-serif;
 }
 
-.carousel-indicators>li {
-    border-radius: 50%;
-}
 
-.carousel-caption {
-    margin-bottom: 150px;
-    
-
-}
-
-.heroHead {
+.schMoto {
     font-size: 56px;
     color: white;
     font-weight: 600;
+    text-align: left;
+
 }
 
 .heroBtn {
 
     font-size: 14px !important;
-    color: black !important;
-    background-color: #fdc800 !important;
+    color: white !important;
+    background-color: #002147 !important;
     padding-left: 11px;
     padding-right: 11px;
     padding-top: 12px;
     padding-bottom: 12px;
     font-weight: 700;
     text-decoration: none !important;
+    text-align: left;
+    align-items: left;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    /* margin-left: 20px; */
+    
+}
+.carousel-caption{
+    position: absolute;
+    top: 120px;
+    /* left: -70px; */
+    display: flex;
+    justify-content: start;
+    width: 700px;
+    
 }
 
-.heroDes{
+.schDes{
     
     text-align: center;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    width: 500px;
+    text-align: left;
 }
 .topRow{
     background-color: #062242;
@@ -71,7 +85,7 @@ body {
 
     
 }
-.welcome{
+.wel{
     font-size: 43px;
     font-weight: 700;
     color: #002147;
@@ -123,3 +137,21 @@ position: relative;
         margin-left: 30px;
     }
 }
+
+.welcomeImage{
+    height: 350px;
+    width: 70%;
+    position: absolute;
+    left: 30%;
+}
+.footer{
+    background-color: #062242;
+}
+
+.copy{
+    text-decoration: none;
+}
+.footerLink{
+    text-decoration: none;
+}
+
