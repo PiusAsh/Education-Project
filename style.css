@@ -16,16 +16,15 @@ body {
     font-weight: 500;
     font-family: 'Roboto',
         sans-serif;
-    /* margin: 5px; */
+
 }
 
 .applyBtn {
     background-color: #fdc800;
     color: #002147 !important;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 800;
     height: 38px;
-    width: 103px;
     text-align: center;
     font-family: 'Roboto',
         sans-serif;
@@ -56,13 +55,12 @@ body {
     position: absolute;
     top: 50%;
     left: 0%;
-    /* margin-left: 20px; */
+    
     
 }
 .carousel-caption{
     position: absolute;
     top: 120px;
-    /* left: -70px; */
     display: flex;
     justify-content: start;
     width: 700px;
