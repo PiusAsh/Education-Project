@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto',
+        sans-serif;
+        overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #002147 !important;
+    height: 80px;
+}
+
+.nav-link {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto',
+        sans-serif;
+    /* margin: 5px; */
+}
+
+.applyBtn {
+    background-color: #fdc800;
+    color: #002147 !important;
+    font-size: 12px;
+    font-weight: 600;
+    height: 38px;
+    width: 103px;
+    text-align: center;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.carousel-indicators>li {
+    border-radius: 50%;
+}
+
+.carousel-caption {
+    margin-bottom: 150px;
+    
+
+}
+
+.heroHead {
+    font-size: 56px;
+    color: white;
+    font-weight: 600;
+}
+
+.heroBtn {
+
+    font-size: 14px !important;
+    color: black !important;
+    background-color: #fdc800 !important;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+.heroDes{
+    
+    text-align: center;
+}
+.topRow{
+    background-color: #062242;
+    align-items: center;
+    padding: 15px;
+    
+
+    
+}
+.welcome{
+    font-size: 43px;
+    font-weight: 700;
+    color: #002147;
+}
+
+.mainSkill{
+    position: absolute;
+    top: 80%;
+left: 10%;
+    z-index: 5;
+}
+
+/* #carouselDarkVariant{
+position: relative;
+} */
+
+.topList{
+    color: white;
+    font-size: 22px;
+    font-size: 500;
+}
+
+.toptop{
+    align-items: center;
+}
+.fa-solid{
+    color: #fdc800;
+    font-size: 30px;
+}
+.fCol{
+    
+    border-right: 2px dotted white;
+    
+}
