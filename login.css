@@ -11,7 +11,7 @@ body{
     width: 350px;
     background-color: white;
     color: #002147;
-    top: 50%;
+    top: 53%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -32,9 +32,10 @@ body{
     border: 2px solid #002147;
     border-radius: 13px;
     outline: hidden;
-    color: white;
+    color: #002147;
     height: 45px;
-    /* background: none; */
+    font-weight: 500;
+    
 }
 
 #input3 {
@@ -102,11 +103,17 @@ label {
 
 .home{
     text-decoration: none;
-    color: white;
+    color: #002147;
     font-size: 15px;
     font-weight: bold;
     font-family: 'Roboto',
     sans-serif;
+}
+.homeT{
+    margin-top: 30px;
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 ::placeholder{
