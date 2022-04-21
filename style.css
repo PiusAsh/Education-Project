@@ -107,6 +107,20 @@ body {
     font-weight: 700;
     color: #002147;
 }
+.wel1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #002147;
+    font-family: 'Roboto',
+    sans-serif;
+}
+.videoHead{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Roboto',
+    sans-serif;
+}
 
 .mainSkill{
     position: absolute;
@@ -171,5 +185,25 @@ position: relative;
 .footerLink{
     text-decoration: none;
 }
+
+.videoSection{
+    background-color: #112A48;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.circle{
+    width: 52px;
+    background-color: white;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70%;
+    position: absolute;
+    left: 48%;
+}
+
 
 
