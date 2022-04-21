@@ -58,6 +58,24 @@ body {
     
     
 }
+.secBtn {
+
+    font-size: 15px !important;
+    color: black !important;
+    background-color: #fdc800 !important;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    text-decoration: none !important;
+    text-align: left;
+   
+    
+   
+    
+    
+}
 .carousel-caption{
     position: absolute;
     top: 120px;
